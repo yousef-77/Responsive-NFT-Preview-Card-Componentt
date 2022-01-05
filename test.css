@@ -1,0 +1,147 @@
+
+:root {
+        --card-background-color:rgb(21 37 61);
+        --text-color:#8bacda;
+      }
+*{ 
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Vujahday Script', cursive;
+    background-color: rgb(13 26 45);
+}   
+.parent{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+
+}
+section{
+    box-shadow: -1px -1px 19px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card{
+    width: 400px;
+    background-color:var(--card-background-color) ;
+    padding: 30px;
+    border-radius: 10px; 
+}
+.image-header{
+    background-color:rgb(21 37 61); 
+}
+
+.image-header img{
+    width: 100%;
+    border-radius: 10px;
+    
+} 
+img:hover{
+    cursor: pointer;
+    
+}
+.card h1{ 
+    color: white;
+
+}
+h1{
+    font-size: 37PX;
+    margin-bottom: 15px;
+}
+h1:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.body,
+h1,
+p,
+figure,
+figcaption,
+footer,
+img,
+footer span{
+    background-color: var(--card-background-color);
+}
+.body p{
+    color: var(--text-color);
+    font-size: 26px;
+    margin: 0;
+}
+figure img{
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+}
+figcaption{
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    color: cyan;
+    font-size: 25px;
+    padding-left: 5px;
+    
+}
+figure{
+    position: relative;
+    left: -40px;
+}
+.time{
+    position:absolute;
+    top: 1px;
+    right: -80px;
+    float: left;
+}
+.time figcaption{
+    display:inline-block;
+    color: var(--text-color);
+    font-size: 33px;
+}
+.time img{
+    display:inline-block;
+    width: 20px;
+    height: 30px;
+}
+hr{
+    border:var(--text-color) solid 1px ;
+}
+footer{
+    height: 60px;
+    margin: 20px 0;
+}
+footer img{
+    display:inline-block;
+    border: white 3px solid;
+    border-radius: 50%;
+    width: 70px;
+    
+}
+footer p{
+    padding-left: 10px;
+    display: inline-block;
+    font-size:25px ;
+    color: white;
+    top: -30px;
+    position: relative;
+}
+span{
+    color: var(--text-color);
+}
+footer>p:hover {
+    color: cyan;
+    cursor: pointer;
+}
+.devo {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+}
+.devo span{
+    color: blueviolet;
+    cursor: pointer;
+    background-color: inherit;
+}
+.devo span:hover{
+    color:turquoise;
+}
